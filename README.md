@@ -1,2 +1,2 @@
-# website
+# saltslate_website
 Website for SaltSlate

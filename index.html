@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Your Food</title> 
+<title>SaltSlate</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -50,21 +50,35 @@
 
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
-  <img src="salad_cropped.jpg" alt="salad" style="width:100%"><!--;min-height:350px;max-height:600px;"-->
-  <div class="w3-container w3-display-middle w3-margin-bottom">
+  <!--img src="salad_cropped.jpg" alt="salad" style="width:100%"--><!--;min-height:350px;max-height:600px;"-->
+
+  <div class="w3-container w3-center">
+    <img src="./images/fork_and_spoon_outline_logo.png" alt="fork_and_spoon_outline" style="width:90%;max-height:800px">
+
+    <!--Image attribution-->
+    <div class="w3-container w3-margin-bottom w3-right">
+        <p>
+          Image by
+          <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2426623">
+          congerdesign
+          </a>
+        </p>
+    </div>
+  </div>
+
+<!-- TODO: Make this visible and goodlookign somehow. -->
+
+
+  <!--div class="w3-container w3-display-middle w3-margin-bottom">
     <button onclick="document.getElementById('id01').style.display='block'"
             class="w3-button w3-xlarge w3-theme w3-hover-teal"
             title="Menu Creation Tool">Create a Menu</button>
-  </div>
-   <!--<div class="w3-container w3-display-bottomleft w3-margin-bottom">
-    <button onclick="document.getElementById('id01').style.display='block'"
-            class="w3-button w3-xlarge w3-theme w3-hover-teal"
-            title="Recipe Analysis Tool">Analize a Recipe</button>
-  </div>-->
+  </div-->
+
 </div>
 
 <!-- Modal -->
-<div id="id01" class="w3-modal">
+<!--div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-top">
     <header class="w3-container w3-teal w3-display-container">
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
@@ -80,50 +94,34 @@
       <p>We appreciate your patience as we build our business.</p>
     </footer>
   </div>
-</div>
-
-<!-- Team Container -->
-<div class="w3-container w3-padding-64 w3-center" id="team">
-<h2>OUR TEAM</h2>
-<div class="w3-row"><br>
-
-<div class="w3-third">
-  <img src="AvivaBulow.jpg" alt="Aviva" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Aviva Bulow</h3>
-  <p>Awesome Person</p>
-</div>
-
-<div class="w3-third">
-  <img src="DavidArriola.jpg" alt="David" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>David Arriola</h3>
-  <p>Amazing Guy</p>
-</div>
-
-<div class="w3-quarter">
-  <img src="SahraVerzub.jpg" alt="Sahra" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Sahra Verzub</h3>
-  <p>Phenomenal Woman</p>
-</div>
-
-</div>
-</div>
+</div-->
 
 <!-- Work Row -->
-<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="misson">
 
-<div class="w3-quarter">
-<h2>Our Work</h2>
-<p>We design nutritious food that fits within your budget.
+<div class="w3-center">
+<h1>Our Mission</h1>
+<h4>We design nutritious food that fits within your budget.
     We help you plan, shop, and cook so that you have more time,
-    eat healthier food, and spend less money.</p>
+    eat healthier food, and spend less money.</h4>
 </div>
 
-<div class="w3-quarter">
+<div class="w3-third">
 <div class="w3-card w3-white">
-  <img src="/w3images/snow.jpg" alt="Snow" style="width:100%">
   <div class="w3-container">
-  <h3>Customer 1</h3>
-  <h4>Trade</h4>
+  <h3 class="w3-center">Save Time</h3>
+
+  <div class="w3-container w3-center">
+    <div>
+      <img src="./images/time.jpg" alt="time" style="width:100%">
+      <!--Image attribution-->
+      <div class="w3-third w3-bottomright">
+        <p>Image by <a href="https://pixabay.com/users/qimono-1962238/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1461689">Arek Socha</a></p>
+      </div>
+    </div>
+  </div>
+
+
   <p>Blablabla</p>
   <p>Blablabla</p>
   <p>Blablabla</p>
@@ -132,12 +130,22 @@
   </div>
 </div>
 
-<div class="w3-quarter">
+<div class="w3-third">
 <div class="w3-card w3-white">
-  <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+
   <div class="w3-container">
-  <h3>Customer 2</h3>
-  <h4>Trade</h4>
+  <h3 class="w3-center">Save Money</h3>
+
+  <div class="w3-container w3-center">
+    <div>
+      <img src="./images/money.jpg" alt="money" style="width:100%">
+      <!--Image attribution-->
+      <div class="w3-third w3-bottomright">
+        <p>Image by <a href="https://pixabay.com/users/Frantisek_Krejci-810589/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4561704">Frantisek Krejci</a></p>
+      </div>
+    </div>
+  </div>
+
   <p>Blablabla</p>
   <p>Blablabla</p>
   <p>Blablabla</p>
@@ -146,12 +154,21 @@
   </div>
 </div>
 
-<div class="w3-quarter">
+<div class="w3-third">
 <div class="w3-card w3-white">
-  <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
   <div class="w3-container">
-  <h3>Customer 3</h3>
-  <h4>Trade</h4>
+  <h3 class="w3-center">Eat Better</h3>
+
+  <div class="w3-container w3-center">
+    <div>
+      <img src="./images/food.jpg" alt="food" style="width:100%">
+      <!--Image attribution-->
+      <div class="w3-third w3-bottomright">
+        <p>Image by <a href="https://pixabay.com/users/ruthieprasil-4168601/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1948264">ruthieprasil</a></p>
+      </div>
+    </div>
+  </div>
+
   <p>Blablabla</p>
   <p>Blablabla</p>
   <p>Blablabla</p>
@@ -161,6 +178,36 @@
 </div>
 
 </div>
+
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-center" id="about">
+
+<h1>ABOUT US</h1>
+<div class="w3-row"><br>
+
+  <div class="w3-third">
+    <h2>Contact</h2>
+
+  </div>
+
+  <div class="w3-third">
+    <h2>Location</h2>
+
+
+  </div>
+
+  <div class="w3-third">
+    <h2>Founder</h2>
+    <img src="AvivaBulow.jpg" alt="Aviva" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Aviva Bulow</h3>
+    <p>Entrepreneur</p>
+  </div>
+
+</div>
+
+
+
 
 <!-- Container -->
 <div class="w3-container" style="position:relative">

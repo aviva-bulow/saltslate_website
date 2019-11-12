@@ -12,14 +12,14 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="w3_base.css">
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body id="landing">
 
 <!-- Sidebar on click -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-saltslate-blue">Close
     <i class="fa fa-remove"></i>
   </a>
   <a href="#" class="w3-bar-item w3-button">Link 1</a>
@@ -33,7 +33,7 @@
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-text-theme w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <!--<a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>-->
+  <!--<a href="#" class="w3-bar-item w3-button w3-saltslate-blue"><i class="fa fa-home w3-margin-right"></i>Logo</a>-->
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
@@ -45,7 +45,7 @@
       <a href="#" class="w3-bar-item w3-button">Link</a>
     </div>
   </div>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-saltslate-blue" title="Search"><i class="fa fa-search"></i></a>
  </div>
 
   <!-- Navbar on small screens -->
@@ -79,18 +79,19 @@
 
   <!--div class="w3-container w3-display-middle w3-margin-bottom">
     <button onclick="document.getElementById('id01').style.display='block'"
-            class="w3-button w3-xlarge w3-theme w3-hover-teal"
+            class="w3-button w3-xlarge w3-theme w3-hover-saltslate-blue"
             title="Menu Creation Tool">Create a Menu</button>
   </div-->
 
 </div>
 
 <!-- Mission -->
-<div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-container  w3-text-theme" id="mission">
+<div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-container w3-text-theme" id="mission">
 
-<div class="w3-center w3-panel w3-serif w3-xxlarge">
-<p class="w3-serif w3-xxxlarge">Our Mission</p>
+<div class="w3-center w3-panel w3-xlarge">
+<p class="w3-serif w3-xxxlarge w3-wide">Our Mission</p>
 <p>We design nutritious food that fits within a low income budget.
+  <br>
   We help people plan, shop, and cook so that they save time,
   save money, and eat better. </p>
 </div>
@@ -102,7 +103,7 @@
     <!--p>Image by <a href="https://pixabay.com/users/JESHOOTS-com-264599/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=410328">Jan Vašek</a></p-->
 </div>
 <div class="w3-twothird w3-container w3-padding">
-  <h3 class="w3-center w3-xlarge w3-wide"><b>Save Time</b></h3>
+  <h3 class="w3-center w3-xlarge w3-wide w3-border-saltslate-blue w3-border-bottom"><b>Save Time</b></h3>
   <br>
   <ul class="w3-large">
     <li>
@@ -133,7 +134,7 @@
 
 <div class="w3-row w3-card" id="money">
 <div class="w3-twothird w3-container w3-padding">
-  <h3 class="w3-center w3-wide"><b>Save Money</b></h3>
+  <h3 class="w3-center w3-wide w3-border-saltslate-blue w3-border-bottom"><b>Save Money</b></h3>
   <br>
   <ul class="w3-large">
     <li>
@@ -173,7 +174,8 @@
     <!--p>Image by <a href="https://pixabay.com/users/RitaE-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3317060">RitaE</a></p-->
 </div>
 <div class="w3-twothird w3-container">
-  <h3 class="w3-center w3-wide"><b>Eat Better</b></h3>
+
+  <h3 class="w3-center w3-wide w3-border-saltslate-blue w3-border-bottom"><b>Eat Better</b></h3>
   <br>
   <ul class="w3-large">
     <li>
@@ -208,8 +210,8 @@
 
 <div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-text-theme w3-container" id="reasons">
 
-<div class="w3-center w3-panel w3-serif w3-xxlarge">
-<p class="w3-serif w3-xxxlarge">Why We Do It</p>
+<div class="w3-center w3-panel w3-xlarge">
+<p class="w3-serif w3-wide w3-xxxlarge">Why We Do It</p>
 <p>Nearly one in every three households in the United States is low income.</p>
 <p>People in this group spend more time cooking than any other demographic,
    have increased levels of food insecurity, and are more malnourished than the
@@ -224,7 +226,7 @@
     <!--p>Image by <a href="https://pixabay.com/users/3938030-3938030/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1958723">Mandy Fontana</a></p-->
 </div>
 <div class="w3-twothird w3-container">
-  <h3 class="w3-center w3-wide"><b>Malnourishment</b></h3>
+  <h3 class="w3-center w3-wide w3-border-saltslate-blue w3-border-bottom"><b>Malnourishment</b></h3>
   <p class="w3-large">
     <br>
     Sugar intake.
@@ -249,7 +251,7 @@
 
 <div class="w3-row w3-card" id="food_insecurity">
 <div class="w3-twothird w3-container w3-padding">
-  <h3 class="w3-center w3-wide"><b>Food Insecurity</b></h3>
+  <h3 class="w3-center w3-wide w3-border-saltslate-blue w3-border-bottom"><b>Food Insecurity</b></h3>
   <br>
   <p class="w3-large">
     X people in the US suffer from food insecurity, Y of them are children.
@@ -284,7 +286,7 @@
     <!--p>Image by <a href="https://pixabay.com/users/1388843-1388843/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1492052">1388843</a></p-->
 </div>
 <div class="w3-twothird w3-container">
-  <h3 class="w3-center w3-wide"><b>Stress</b></h3>
+  <h3 class="w3-center w3-wide w3-border-saltslate-blue w3-border-bottom"><b>Stress</b></h3>
   <br>
   <p class="w3-large">
     <!-- TODO: make this formal sounding and better -->
@@ -315,24 +317,24 @@
 <!-- About Container -->
 <div class="w3-container w3-card w3-padding-64 w3-center w3-theme-l1 w3-text-theme" id="about">
 
-<h1>Who We Are</h1>
+<p class="w3-serif w3-wide w3-xxlarge">Who We Are</p>
 <br>
 <div class="w3-row"><br>
 
   <div class="w3-third">
 
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border- w3-bottombar">Contact Us</span></div>
-      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +01 7204733836</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  aviva.bulow@gmail.com</p>
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-saltslate-blue w3-bottombar">Contact Us</span></div>
+      <p><i class="fa fa-phone w3-text-saltslate-blue w3-xlarge"></i>  +01 7204733836</p>
+      <p><i class="fa fa-envelope-o w3-text-saltslate-blue w3-xlarge"></i>  aviva.bulow@gmail.com</p>
   </div>
 
   <div class="w3-third">
 
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Location</span></div>
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-saltslate-blue w3-bottombar">Location</span></div>
     <p>
         We're based in
     </p>
-        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Berkeley, CA.</p>
+        <p><i class="fa fa-map-marker w3-text-saltslate-blue w3-xlarge"></i>  Berkeley, CA.</p>
     <p>
         If you're nearby, contact us to set up a meeting!
     </p>
@@ -340,7 +342,7 @@
 
   <div class="w3-third">
 
-    <h2>Founder</h2>
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-saltslate-blue w3-bottombar">Founder</span></div>
     <img src="AvivaBulow.jpg" class="w3-circle w3-card-4" alt="Aviva" style="width:45%" class="w3-circle w3-hover-opacity">
     <h3>Aviva Bulow</h3>
     <p>Entrepreneur</p>
@@ -353,7 +355,7 @@
 
 <!-- Container -->
 <!--div class="w3-container w3-theme-l1" style="position:relative">
-  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-saltslate-blue"
   style="position:absolute;top:-28px;right:24px">+</a>
 </div-->
 
@@ -363,16 +365,16 @@
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-text-theme w3-center">
   <h4>Follow Us</h4>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <a class="w3-button w3-large w3-saltslate-blue" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-saltslate-blue" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-saltslate-blue" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-saltslate-blue w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 
   <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
     <span class="w3-text w3-padding w3-hide-small">Go To Top</span>
     <a class="w3-button w3-theme-l1" href="#myPage"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
+    <i class="fa fa-chevron-circle-up "></i></span></a>
   </div>
 </footer>
 
